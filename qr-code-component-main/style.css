@@ -1,0 +1,39 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit';
+    padding: 2rem;
+}
+
+main {
+    padding: 1.5rem;
+    border-radius: 2rem;
+    background-color: hsl(0, 0%, 100%);
+}
+
+img {
+    max-width: 100%;
+    border-radius: 2rem;
+}
+
+h1 {
+    margin: 1rem auto;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+p {
+    color: hsl(220, 15%, 55%);
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(220, 15%, 55%); 
+}
