@@ -1,36 +1,37 @@
 body {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     background-color: hsl(212, 45%, 89%);
     font-family: 'Outfit';
     padding: 2rem;
 }
 
 main {
-    padding: 1.5rem;
-    border-radius: 2rem;
+    margin: 5rem auto 0;
+    max-width: 17rem;
+    padding: 1rem 1rem 2rem;
+    border-radius: 1rem;
     background-color: hsl(0, 0%, 100%);
+    text-align: center;
 }
 
 img {
     max-width: 100%;
-    border-radius: 2rem;
+    border-radius: 1rem;
 }
 
 h1 {
-    margin: 1rem auto;
-    font-size: 1.5rem;
+    padding: 0 0.5rem;
+    margin: 1.5rem auto;
+    font-size: 1.3rem;
     font-weight: 700;
 }
 
 p {
+    padding: 0 0.5rem;
     color: hsl(220, 15%, 55%);
 }
 
 .attribution { 
+    margin-top: 1rem;
     font-size: 11px; text-align: center; 
 }
 
